@@ -1,0 +1,260 @@
+body
+{
+	justify-content: center;
+	align-items: center;
+}
+.container
+{
+	background: white;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-family: verdana;
+	font-size: 80%;
+}
+.container .left_side
+{
+	display: inline-block;
+	vertical-align: top; 
+	background: white;
+	height: 50%;
+	width: 30%;
+	padding-left: 2%;
+}
+.picture
+{
+	align-items: center;
+	padding-bottom: 3%;
+}
+.picture .imageBox
+{
+	width: 50%;
+    margin-left: 20%;
+    border-radius: 80%;
+    overflow: hidden;
+}
+.picture .imageBox img
+{
+	width: 100%;
+    height: auto;
+}
+.picture h2
+{
+	margin-top: 5%;
+    color: #364b85;
+    font-size: 220%;
+    text-align: center;
+    margin-right: 8%;
+}
+.picture h2 span
+{
+	color: #364b85;
+	text-align: center;
+	font-size: 60%;
+}
+.detail ul
+{
+	padding-inline-start: 8%;
+}
+.detail ul li
+{
+	list-style: none;
+	margin: 2%;
+	margin-left: 8%;
+	align-items: center;
+	margin-bottom: 6%;
+	padding-bottom: 5%;
+	font-weight: 1000;
+}
+.detail .border-line
+{
+	border-bottom: 1px solid;
+	border-bottom-color: #c6c9d8;
+}
+.detail ul li .icon
+{
+	display: inline-block;
+	width: 10%;
+	font-size: 100%;
+	color: #C6CBD8;
+}
+.detail ul li .text
+{
+	font-size: 100%;
+	color: #364b85;
+}
+.left_side .resume-button
+{
+	width: 50%;
+    height: 50Px;
+    border: 0px;
+	border-radius: 10px;
+	font-weight: 700;
+	background: #377CFE;
+	color: white;
+	margin-top: 12%;
+	margin-left: 15%;;
+	padding: 0px;	
+}
+.container .right_side
+{
+	display: inline-block;
+	background: white;
+	padding-left: 40px;
+	height: 100%;
+	width: 60%;
+}
+.summary
+{
+	color: #364b85;
+	padding-bottom: 10px
+}
+.summary h2
+{
+	margin-top: 0%;
+	font-weight: 1000;
+	font-size: 250%;
+}
+.summary p
+{
+	font-size: 120%;
+    line-height: 150%;
+}
+.work
+{
+	width: 100%;
+}
+.experience
+{
+	color: #364b85;
+	font-weight: 500;
+	padding-top: 1%;
+	font-size: 155%;
+}
+.experience h2
+{
+	margin-bottom: 1%;
+	
+}
+.work h3
+{
+	margin-top: 4%;
+    margin-bottom: 0%;
+    font-weight: 100;
+    font-size: 150%;
+    color: #364b85;
+}
+.work .work-button
+{
+	width: 150%;
+	height: 30px;
+	border-radius: 15px;
+	font-weight: 700;
+	border: 0px;
+	background: #d7ffe0;
+	color: #364b85;
+}
+.work .work-time, .work-time1
+{
+	display: inline-block;
+    margin-left: 48%;
+    font-size: 65%;
+}
+.work .work-time1
+{
+    margin-left: 63%;
+}
+
+.work ul
+{
+	margin-top: 1%;
+	margin-bottom: 0px;
+    padding-inline-start: 0px;
+    padding-bottom: 6%;;
+}
+.work hr
+{
+	margin: 0px;
+	background: #C6CBD8;
+}
+.work ul li
+{
+	list-style: none;
+  	display: inline;
+  	padding-right: 4%;
+}
+.work ul li .icon
+{
+	display: inline-block;
+    width: 3%;
+    font-size: 100%;
+    color: #C6CBD8;
+}
+.work ul li .text
+{
+	font-size: 100%;
+	color: #C6CBD8;
+}
+.work .date
+{
+	padding-left: 47%;
+	padding-right: 0px;
+}
+.work .junior li
+{
+	list-style: none;
+  	display: inline;
+  	padding-right: 8%;
+}
+.work .junior .date1
+{
+	padding-left: 30%;
+	padding-right: 0px;
+}
+.work .intern li
+{
+	list-style: none;
+  	display: inline;
+  	padding-right: 5%;
+}
+.work .intern .date2
+{
+	padding-left: 32%;
+	padding-right: 0px;
+}
+.education h2
+{
+	color: #364b85;
+	margin-top: 10%;
+	font-size: 230%;
+}
+.education h3
+{
+	color: #364b85;
+	font-size: 150%;
+	font-weight: 100;
+}
+.education ul
+{
+	margin-top: 3px;
+	margin-bottom: 0px;
+	padding-inline-start: 0px;
+	padding-bottom: 4%;
+	color: #C6CBD8;
+	font-size: 13px;
+}
+.education ul li
+{
+	list-style: none;
+  	display: inline;
+}
+.education ul li .icon
+{
+	width:4%;
+	font-size: 100%;
+	color: #C6CBD8;
+	padding-right: 1%;
+}
+.education ul .college
+{
+  	padding-right: 30%;
+}
